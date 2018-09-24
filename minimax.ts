@@ -14,7 +14,7 @@ const gameBoard: string[] = ["x", "o", "",    "o", "", "",    "", "", ""];
 let fcs = 0;
 
 // this function isn't pure
-function minimax(board: string[], player: string, fcsCounterReference?: number): BestMove {
+export function minimax(board: string[], player: string, fcsCounterReference?: number): BestMove {
     if(typeof fcsCounterReference !== "undefined")
         fcsCounterReference++;
 
