@@ -81,7 +81,7 @@ var availablePositionsOnBoard = function (gameboard) {
     })
         .filter(function (ele) { return typeof ele !== "undefined"; });
 };
-console.log(availablePositionsOnBoard(gameBoard));
+// console.log(availablePositionsOnBoard(gameBoard));
 function winning(board, player) {
     if ((board[0] == player && board[1] == player && board[2] == player) ||
         (board[3] == player && board[4] == player && board[5] == player) ||
@@ -97,7 +97,8 @@ function winning(board, player) {
         return false;
     }
 }
-var bestPositionForAi = minimax(gameBoard, aiPlayer);
-console.log(fcs);
-console.log(bestPositionForAi);
-console.log(bestPositionForAi.functionsCallsMade);
+// let bestPositionForAi = minimax(gameBoard, aiPlayer);
+// console.log(fcs);
+// console.log(bestPositionForAi);
+// console.log(bestPositionForAi.functionsCallsMade);
+//# sourceMappingURL=minimax.js.map

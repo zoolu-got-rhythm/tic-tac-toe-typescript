@@ -107,7 +107,7 @@ const availablePositionsOnBoard = (gameboard: string[]): number[] => {
         .filter((ele: any) => typeof ele !== "undefined");
 };
 
-console.log(availablePositionsOnBoard(gameBoard));
+// console.log(availablePositionsOnBoard(gameBoard));
 
 function winning(board, player): boolean{
     if (
@@ -126,7 +126,7 @@ function winning(board, player): boolean{
     }
 }
 
-let bestPositionForAi = minimax(gameBoard, aiPlayer);
-console.log(fcs);
-console.log(bestPositionForAi);
-console.log(bestPositionForAi.functionsCallsMade);
+// let bestPositionForAi = minimax(gameBoard, aiPlayer);
+// console.log(fcs);
+// console.log(bestPositionForAi);
+// console.log(bestPositionForAi.functionsCallsMade);
