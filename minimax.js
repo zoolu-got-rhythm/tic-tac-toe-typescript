@@ -1,10 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // can make enum ?
 var aiPlayer = "x";
 var huPlayer = "o";
-// const does not freeze an arrays elements in place
-var gameBoard = ["x", "o", "", "o", "", "", "", "", ""];
 var fcs = 0;
 // this function isn't pure
 function minimax(board, player, fcsCounterReference) {
@@ -71,7 +67,6 @@ function minimax(board, player, fcsCounterReference) {
     moves[bestMove].functionsCallsMade = sumOfFcsMade + 1;
     return moves[bestMove];
 }
-exports.minimax = minimax;
 // find indexes of free slots on board
 var availablePositionsOnBoard = function (gameboard) {
     return gameboard

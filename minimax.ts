@@ -9,12 +9,11 @@ interface BestMove {
     score: number;
 }
 
-// const does not freeze an arrays elements in place
-const gameBoard: string[] = ["x", "o", "",    "o", "", "",    "", "", ""];
-let fcs = 0;
+
+let fcs: number = 0;
 
 // this function isn't pure
-export function minimax(board: string[], player: string, fcsCounterReference?: number): BestMove {
+function minimax(board: string[], player: string, fcsCounterReference?: number): BestMove {
     if(typeof fcsCounterReference !== "undefined")
         fcsCounterReference++;
 

@@ -1,16 +1,65 @@
 
 
-import { minimax } from "./minimax";
+// import { minimax } from "./minimax";
 
 
 
-const gameBoard: string[] = ["x", "o", "",    "o", "", "",    "", "", ""];
 
-console.log(minimax(gameBoard, "x"));
+// const does not freeze an arrays elements in place
+const gameBoard: string[] = ["", "", "",    "", "", "",    "", "", ""];
 
-// let gameBoardContainer = document.createElement("div");
-// gameBoardContainer.style.height = "300px";
-// gameBoardContainer.style.width = "300px";
-// gameBoardContainer.style.background = "yellow";
-//
-// document.body.appendChild(gameBoardContainer);
+let gameBoardContainer = document.createElement("div");
+gameBoardContainer.style.height = "300px";
+gameBoardContainer.style.width = "300px";
+gameBoardContainer.style.background = "yellow";
+
+document.body.appendChild(gameBoardContainer);
+
+function render(){
+    gameBoardContainer.innerHTML = "";
+    gameBoard.forEach((tile: string, index: number)=>{
+        let domTile = document.createElement("div");
+        domTile.style.width = "100px";
+        domTile.style.height = "100px";
+        domTile.style.cssFloat = "left";
+        // domTile.style.margin = "0px auto";
+        domTile.style.textAlign = "center";
+
+        domTile.addEventListener("click", function(e: Event){
+            console.log(index);
+            if(gameBoard[index] === ""){
+                gameBoard[index] = "o";
+                let bestPositionForAiOnBoard = minimax(gameBoard, "x");
+                gameBoard[bestPositionForAiOnBoard.index] = "x";
+            }
+            render();
+        });
+
+        if(tile !== ""){
+
+        }
+        
+        let symbolTextNode = document.createTextNode(tile);
+        let font = document.createElement("h2");
+        // font.style.strokeWidth = "55px";
+        font.style.fontSize = "100px";
+        font.style.fontFamily = "arial";
+        // font.style.margin = "0px";
+        // font.style.padding = "0px";
+        font.style.display = "inline";
+
+        font.appendChild(symbolTextNode);
+        domTile.appendChild(font);
+        if(index % 2 === 0){
+            domTile.style.background = "#aaa";
+        }else{
+            domTile.style.background = "#eee";
+        }
+        gameBoardContainer.appendChild(domTile);
+    });
+}
+
+render();
+
+
+
