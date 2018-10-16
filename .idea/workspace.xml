@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da471d6-4f3a-4ea3-87fd-a9ba5d0992d2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/view.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.ts" beforeDir="false" afterPath="$PROJECT_DIR$/view.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-web/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-web/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-web/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-web/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-web/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-web/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-web/my-app/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-web/my-app/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,78 +21,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="minimax.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minimax.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="90" selection-start-line="85" selection-start-column="90" selection-end-line="85" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.js.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view.js.map">
-          <provider editor-type-id="sourcemapFileViewerProvider" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="CounterStatefull.test.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+            <state relative-caret-position="332">
+              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="CounterStatefull.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="68" selection-end-column="18" />
+              <folding>
+                <element signature="e#96#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyStateless.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/src/DummyStateless.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DummyStateless.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/src/DummyStateless.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterStatefull.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.test.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="minimax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/minimax.js">
+      <file leaf-file-name="tsconfig.prod.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.prod.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="git.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-changed-files/build/git.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
-            </state>
+            <state relative-caret-position="-468" />
           </provider>
         </entry>
       </file>
@@ -99,10 +115,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -112,11 +128,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/minimax.ts" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/view.ts" />
+        <option value="$PROJECT_DIR$/react-web/my-app/tslint.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/react-web/my-app/tsconfig.json" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/Dummy.tsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/DummyStateless.tsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.ts" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/App.tsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.css" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/HexGenerator.ts" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.tsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/setupTests.ts" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.ts" />
+        <option value="$PROJECT_DIR$/react-web/my-app/package.json" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.tsx" />
       </list>
     </option>
   </component>
@@ -126,10 +155,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/react-web/my-app/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/common-js/package.json" />
+      <path value="$PROJECT_DIR$/react-web/my-app/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="731" />
@@ -140,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,17 +188,35 @@
               <item name="tic-tac-toe" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="react-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="react-web" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tic-tac-toe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tic-tac-toe" type="462c0819:PsiDirectoryNode" />
+              <item name="react-web" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/react-web/my-app/node_modules/react-scripts-ts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -179,17 +233,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.view.js">
-    <configuration name="minimax.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="minimax.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Jest.test CounterStatefull starts at 0">
+    <configuration name="renders the correct text when no enthusiasm level is given" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/react-web/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.ts" />
+      <test-names>
+        <test-name value="renders the correct text when no enthusiasm level is given" />
+      </test-names>
+    </configuration>
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/react-web/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-web/my-app/src/App.test.tsx" />
+      <test-names>
+        <test-name value="renders without crashing" />
+      </test-names>
+    </configuration>
+    <configuration name="test CounterStatefull starts at 0" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/react-web/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.tsx" />
+      <test-names>
+        <test-name value="test CounterStatefull starts at 0" />
+      </test-names>
+    </configuration>
+    <configuration name="test enzyme works properly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/react-web/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.tsx" />
+      <test-names>
+        <test-name value="test enzyme works properly" />
+      </test-names>
+    </configuration>
     <configuration name="view.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="view.js" working-dir="$PROJECT_DIR$" />
     <list>
-      <item itemvalue="Node.js.minimax.js" />
       <item itemvalue="Node.js.view.js" />
+      <item itemvalue="Jest.renders without crashing" />
+      <item itemvalue="Jest.renders the correct text when no enthusiasm level is given" />
+      <item itemvalue="Jest.test enzyme works properly" />
+      <item itemvalue="Jest.test CounterStatefull starts at 0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.test CounterStatefull starts at 0" />
+        <item itemvalue="Jest.test enzyme works properly" />
+        <item itemvalue="Jest.renders the correct text when no enthusiasm level is given" />
+        <item itemvalue="Jest.renders without crashing" />
         <item itemvalue="Node.js.view.js" />
-        <item itemvalue="Node.js.minimax.js" />
       </list>
     </recent_temporary>
   </component>
@@ -204,34 +307,62 @@
       <option name="presentableId" value="Default" />
       <updated>1537576903719</updated>
       <workItem from="1537576905248" duration="37904000" />
+      <workItem from="1539203231106" duration="21589000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="renders_without_crashing - 2018.10.10 at 23h 13m 59s.xml">
+      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_without_crashing - 2018.10.11 at 01h 51m 53s.xml">
+      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="renders_the_correct_text_when_no_enthusiasm_level_is_given - 2018.10.15 at 00h 40m 51s.xml">
+      <configuration name="renders the correct text when no enthusiasm level is given" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_enzyme_works_properly - 2018.10.15 at 01h 13m 47s.xml">
+      <configuration name="test enzyme works properly" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="test_CounterStatefull_starts_at_0 - 2018.10.15 at 03h 10m 22s.xml">
+      <configuration name="test CounterStatefull starts at 0" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37904000" />
+    <option name="totallyTimeSpent" value="59493000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="1" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="right" id="Graph Database" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Graph Database Console" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29793105" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
+      <window_info anchor="right" id="Graph Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2584814" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Graph Database Console" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
@@ -243,6 +374,19 @@
         <option value="$PROJECT_DIR$/view.js" />
         <option value="$PROJECT_DIR$/minimax.js.map" />
         <option value="$PROJECT_DIR$/view.js.map" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/registerServiceWorker.js.map" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/HexGenerator.js.map" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/DummyStateless.jsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.jsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/App.test.jsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/index.jsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/setupTests.js" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/HexGenerator.js" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/registerServiceWorker.js" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/App.jsx" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/setupTests.js.map" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.js.map" />
+        <option value="$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.js" />
       </list>
     </option>
   </component>
@@ -250,19 +394,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view.js">
+    <entry file="file://$PROJECT_DIR$/minimax.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="90" selection-start-line="85" selection-start-column="90" selection-end-line="85" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -270,6 +425,41 @@
           <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minimax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/minimax.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -295,14 +485,222 @@
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/build/dist/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/build/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#87#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/registerServiceWorker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/HexGenerator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-config/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-changed-files/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-changed-files/build/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-changed-files/build/hg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/node_modules/jest-changed-files/build/git.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.prod.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/DummyStateless.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="68" selection-end-column="18" />
+          <folding>
+            <element signature="e#96#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/DummyStateless.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-web/my-app/src/CounterStatefull.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

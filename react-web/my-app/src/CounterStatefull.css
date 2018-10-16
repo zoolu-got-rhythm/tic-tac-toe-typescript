@@ -1,0 +1,27 @@
+/*.counterContainer{*/
+    /*background: #aaa;*/
+    /*width: 50%;*/
+/*}*/
+
+@media only screen and (max-width: 468px) {
+    /* For mobile phones: */
+    .counterContainer{
+        background: #222;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    /* For desktop: */
+    .counterContainer{
+        background: #111;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
+
+.counterContainer h3{
+    font-family: Baskerville;
+}
