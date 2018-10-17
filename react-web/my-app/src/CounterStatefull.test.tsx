@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as enzyme from 'enzyme';
 import CounterStatefull from "./CounterStatefull";
+import { wrap } from 'module';
 // import Count
 // import CounterStatefull from './CounterStatefull';
 
@@ -15,7 +16,7 @@ it('test enzyme works properly',  () => {
     expect(wrapper.find('h1').html()).toMatch(/Hello, Enzyme/)
 });
 
-it('test CounterStatefull startz at 0',  () => {
+it('test CounterStatefull startS at 0',  () => {
     // const hello = enzyme.shallow(<div/>);
     // const instance = hello.instance() as any;
     // expect(instance.find(".counterContainer").childAt(2).text()).toEqual('0');
@@ -38,7 +39,10 @@ it('test CounterStatefull startz at 0',  () => {
 
     expect(wrapper.childAt(0).text()).toMatch("start");
     expect(wrapper.childAt(1).text()).toMatch("stop");
-    expect(wrapper.childAt(2).text()).toMatch(/[0-9]*/);
+
+    console.log("CHECKING TEXT")
+    console.log(wrapper.childAt(4).debug()); 
+    expect(wrapper.childAt(4).text()).toMatch(/[0-9]*/);
 
     // expect(wrapper.childAt(3).exists()).toEqual(true);
 
