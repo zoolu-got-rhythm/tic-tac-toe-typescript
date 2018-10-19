@@ -3,7 +3,7 @@ import './App.css';
 
 // import logo from './logo.svg';
 import DummyStateless from './DummyStateless';
-import CounterStatefull from "./CounterStatefull";
+// import CounterStatefull from "./CounterStatefull";
 
 class App extends React.Component {
   public render() {
@@ -17,7 +17,7 @@ class App extends React.Component {
           {/*To get started, edit <code>src/App.tsx</code> and save to reload.*/}
         {/*</p>*/}
           <DummyStateless stars={5} />
-          <CounterStatefull />
+          {/* <CounterStatefull /> */}
       </div>
     );
   }
