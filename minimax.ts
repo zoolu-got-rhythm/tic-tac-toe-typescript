@@ -1,7 +1,7 @@
 
 // can make enum ?
-const aiPlayer = "x";
-const huPlayer = "o";
+const aiPlayer: string = "x";
+const huPlayer: string = "o";
 
 interface BestMove {
     index?: number;

@@ -15,5 +15,4 @@ function DummyStateless(props) {
     return (<h2 id="stars"> {stars} </h2>);
 }
 exports.default = DummyStateless;
-tateless;
 //# sourceMappingURL=DummyStateless.jsx.map

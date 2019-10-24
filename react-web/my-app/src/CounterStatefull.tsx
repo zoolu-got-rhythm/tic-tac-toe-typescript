@@ -104,9 +104,9 @@ class CounterStatefull extends React.Component<Props, State> {
         // Typical usage (don't forget to compare props):
         if (this.props.startingCount !== prevProps.startingCount) {
             let newCount: number = this.props.startingCount as number; 
-          this.setState({startingCount: newCount}); 
+            this.setState({startingCount: newCount});
         }
-      }
+    }
 }
 
 export default CounterStatefull;
